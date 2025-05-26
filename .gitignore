@@ -25,6 +25,9 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
+artifacts/
+.artifacts
+artifacts\data_ingestion\CT-KIDNEY-DATASET-Normal-Cyst-Tumor-Stone/
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -173,3 +176,6 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+CT-Scan-data.zip/
+CT-Scan-data.zip
+
