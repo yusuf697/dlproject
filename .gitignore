@@ -178,4 +178,5 @@ cython_debug/
 .pypirc
 CT-Scan-data.zip/
 CT-Scan-data.zip
+artifacts/*
 
