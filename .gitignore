@@ -179,4 +179,5 @@ cython_debug/
 CT-Scan-data.zip/
 CT-Scan-data.zip
 artifacts/*
+mlruns
 
