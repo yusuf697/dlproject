@@ -6,7 +6,7 @@ from tensorflow.keras.preprocessing import image
 class PredictionPipeline:
     def __init__(self, filename):
         self.filename = filename
-        self.model = load_model(os.path.join("artifacts", "training", "model.h5"))
+        self.model = load_model(os.path.join("model","model.h5"))
         
         # ✅ Class mapping — change this only if your model uses different label order
         self.class_indices = {0: 'Normal', 1: 'Tumor'}  # <-- Flip if predictions are reversed
